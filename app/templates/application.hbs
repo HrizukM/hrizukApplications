@@ -1,11 +1,14 @@
-<h1>Welcome</h1>
-<nav>
-    <div>
-        <ul>
-            {{#link-to 'index'}}Home{{/link-to}}
-            {{#link-to 'about'}}About{{/link-to}}
-            {{#link-to 'contact'}}Contact Me{{/link-to}}
-        </ul>
-    </div>
-</nav>
+<div class="header-style">
+    <h1 class="hello">Hrizuk Applications</h1>
+    <nav class="nav-default">
+        <div>
+            <ul>
+                {{#link-to 'index' class="test"}}Home{{/link-to}}
+                {{#link-to 'about' class="test"}}About{{/link-to}}
+                {{#link-to 'project' class="test"}}Projects{{/link-to}}
+                {{#link-to 'contact' class="test"}}Contact me{{/link-to}}
+            </ul>
+        </div>
+    </nav>
+</div>
 {{outlet}}
