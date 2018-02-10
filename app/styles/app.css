@@ -1,8 +1,10 @@
 .nav-default{
     text-align: center;
+    padding-right:40px;
 }
 .test{
     text-decoration: none;
+    padding:2px;
 }
 .hello{
     text-align: center;
