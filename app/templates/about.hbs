@@ -1,6 +1,29 @@
-<h1>hello</h1>
-<button {{action "toggleBody"}}>
-    
-</button>
-<body>Will this be hidden?</body>
+
+{{#if isExpanded}}
+    <p>{{education}}</p>
+<button {{action "toggleP1"}}>close</button>
+{{else}}
+    <button{{action "toggleP1"}}>Education</button>
+{{/if}}
+
+{{#if isExpanded}}
+    <div>
+        <p>{{career}}</p>
+    </div>
+<button {{action "toggleP2"}}>close</button>
+{{else}}
+    <button{{action "toggleP2"}}>Career</button>
+{{/if}}
+{{#if isExpanded}}
+    <div>
+        <p>{{culture}}</p>
+    </div>
+<button {{action "toggleP3"}}>close</button>
+{{else}}
+    <button{{action "toggleP3"}}>Culture</button>
+{{/if}}
+
+
+
+
 
