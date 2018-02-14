@@ -1,10 +1,9 @@
-
-{{#if isExpanded}}
-    <p>{{education}}</p>
-<button {{action "toggleP1"}}>close</button>
+{{#unless isExpanded}}
+<button{{action "toggleP1" on="mouseEnter"}}>Education</button>
 {{else}}
-    <button{{action "toggleP1"}}>Education</button>
-{{/if}}
+    <p>{{education}}</p>
+    <button {{action "toggleP1"}}>close</button>
+{{/unless}}
 
 {{#if isExpanded2}}
     <div>

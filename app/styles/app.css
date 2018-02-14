@@ -9,3 +9,6 @@
 .hello{
     text-align: center;
 }
+.content-container{
+    display: block;
+}
