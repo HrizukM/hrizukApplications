@@ -9,3 +9,9 @@
 .hello{
     text-align: center;
 }
+.index-title{
+    text-align: center;
+    /* background-image: url(http://www.visitflorida.com/content/dam/visitflorida/en-us/images/cities/west-palm-beach/1334351659_clematispanoramafinal.jpg.1280.500.rendition);
+    width:auto;
+    height: 200px; */
+}
